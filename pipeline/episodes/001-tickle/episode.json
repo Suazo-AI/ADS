@@ -1,0 +1,26 @@
+{
+  "id": "001-tickle",
+  "title": "Why you can't tickle yourself",
+  "note": "Pipeline test episode. Topic is a placeholder until the reference format is measured.",
+  "format": { "width": 1080, "height": 1920, "fps": 30 },
+  "voice": { "model": "en_US-ryan-high", "length_scale": 0.92 },
+  "gap_seconds": 0.18,
+  "beat_gap_seconds": 0.35,
+  "tail_seconds": 1.2,
+  "lines": [
+    { "beat": "hook",     "scene": "selfTickle",  "text": "Try to tickle yourself." },
+    { "beat": "hook",     "scene": "wait",        "text": "Go on. I'll wait." },
+    { "beat": "hook",     "scene": "shrug",       "text": "Nothing, right?" },
+    { "beat": "setup",    "scene": "headZoom",    "text": "Here's what's going on." },
+    { "beat": "setup",    "scene": "brainCopy",   "text": "Every time you move, your brain sends a copy of that command to a spot called the cerebellum." },
+    { "beat": "setup",    "scene": "predict",     "text": "It uses that copy to predict what you're about to feel." },
+    { "beat": "setup",    "scene": "volumeDown",  "text": "And anything it predicts, it turns down." },
+    { "beat": "escalate", "scene": "otherTickle", "text": "That's why someone else can make you squirm," },
+    { "beat": "escalate", "scene": "flatSelf",    "text": "but your own fingers barely register." },
+    { "beat": "payoff",   "scene": "robot",       "text": "Scientists tested this with a robot." },
+    { "beat": "payoff",   "scene": "robot",       "text": "People moved a handle, and the robot tickled them." },
+    { "beat": "payoff",   "scene": "robotFlat",   "text": "With no delay, it barely tickled." },
+    { "beat": "payoff",   "scene": "delay",       "text": "But add a fraction of a second of lag, and the tickle started coming back." },
+    { "beat": "ending",   "scene": "ending",      "text": "Your brain isn't ignoring you. It just saw you coming." }
+  ]
+}
